@@ -7,7 +7,7 @@ A set of Claude Code skills for testing, reviewing, improving and securing proje
 Copy the skill folders into your Claude Code skills directory:
 
 ```bash
-git clone https://github.com/encyrpt/zeit-claude-skills.git
+git clone https://github.com/zeitgeistz/zeit-claude-skills.git
 cp -r zeit-claude-skills/skills/zeit-* ~/.claude/skills/
 ```
 
