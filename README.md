@@ -1,17 +1,19 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="zeit Claude Code skills" width="100%">
+  <img src="docs/banner.svg" alt="zeit agent skills" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/zeitgeistz/zeit-claude-skills/actions/workflows/check.yml"><img src="https://github.com/zeitgeistz/zeit-claude-skills/actions/workflows/check.yml/badge.svg" alt="check"></a>
+  <a href="https://github.com/zeitgeistz/zeit-agent-skills/actions/workflows/check.yml"><img src="https://github.com/zeitgeistz/zeit-agent-skills/actions/workflows/check.yml/badge.svg" alt="check"></a>
   <img src="https://img.shields.io/badge/version-0.1.0-blue" alt="version 0.1.0">
   <img src="https://img.shields.io/badge/skills-15-7c3aed" alt="15 skills">
-  <img src="https://img.shields.io/badge/Claude%20Code-plugin-0f172a" alt="Claude Code plugin">
+  <img src="https://img.shields.io/badge/for-any%20agent-0f172a" alt="for any agent">
 </p>
 
 # zeit
 
-**Fifteen Claude Code skills for the whole life of a project:** check it, review it, improve it, secure it, document it, debug it, commit it and release it.
+**Fifteen agent skills for the whole life of a project:** check it, review it, improve it, secure it, document it, debug it, commit it and release it.
+
+The skills are plain Markdown instructions, so any coding agent can follow them. They are designed mainly for [Claude Code](https://claude.com/claude-code), which is the only agent where the install commands below are tested.
 
 Every command starts with `/zeit:`, so they are easy to find. Each one reports first and changes files only when you ask.
 
@@ -65,8 +67,8 @@ You need [Claude Code](https://claude.com/claude-code) and, for some skills, the
 In a terminal:
 
 ```bash
-claude plugin marketplace add zeitgeistz/zeit-claude-skills
-claude plugin install zeit@zeit-claude-skills
+claude plugin marketplace add zeitgeistz/zeit-agent-skills
+claude plugin install zeit@zeit-agent-skills
 ```
 
 Then start Claude Code and type `/zeit:` to see the list.
@@ -76,15 +78,15 @@ Then start Claude Code and type `/zeit:` to see the list.
 If you do not want the plugin system, copy the skill folders into your skills directory. The commands become `/test`, `/review` and so on, without the `zeit:` prefix.
 
 ```bash
-git clone https://github.com/zeitgeistz/zeit-claude-skills.git
-cp -r zeit-claude-skills/skills/* ~/.claude/skills/
+git clone https://github.com/zeitgeistz/zeit-agent-skills.git
+cp -r zeit-agent-skills/skills/* ~/.claude/skills/
 ```
 
 On Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/zeitgeistz/zeit-claude-skills.git
-Copy-Item -Recurse zeit-claude-skills\skills\* $HOME\.claude\skills\
+git clone https://github.com/zeitgeistz/zeit-agent-skills.git
+Copy-Item -Recurse zeit-agent-skills\skills\* $HOME\.claude\skills\
 ```
 
 > Do not use Option A and Option B at the same time. The same skills would show up twice.
@@ -277,7 +279,7 @@ Feature: login (3 entry points: POST /login, POST /login/mfa, GET /reset)
 
 ```bash
 claude plugin uninstall zeit
-claude plugin install zeit@zeit-claude-skills
+claude plugin install zeit@zeit-agent-skills
 ```
 
 **Disable** temporarily: `claude plugin --help` lists the disable command for your version.
@@ -286,7 +288,7 @@ claude plugin install zeit@zeit-claude-skills
 
 ```bash
 claude plugin uninstall zeit
-claude plugin marketplace remove zeit-claude-skills
+claude plugin marketplace remove zeit-agent-skills
 ```
 
 For manual installs, delete the copied folders from `~/.claude/skills/`.
@@ -311,7 +313,7 @@ For manual installs, delete the copied folders from `~/.claude/skills/`.
 ### Layout
 
 ```text
-zeit-claude-skills/
+zeit-agent-skills/
 ├── .claude-plugin/
 │   ├── plugin.json          # plugin name, version, description
 │   └── marketplace.json     # lets Claude Code install from this repo

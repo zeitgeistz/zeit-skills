@@ -1,7 +1,7 @@
 {
   "name": "zeit",
   "version": "0.1.0",
-  "description": "Claude Code skills for checking, reviewing, improving, securing and shipping projects. Commands are /zeit:test, /zeit:review, /zeit:security and more.",
+  "description": "Agent skills for checking, reviewing, improving, securing and shipping projects. Written as plain SKILL.md instructions that any coding agent can follow; designed mainly for Claude Code. Commands are /zeit:test, /zeit:review, /zeit:security and more.",
   "author": {
     "name": "zeitgeistz",
     "url": "https://github.com/zeitgeistz"
