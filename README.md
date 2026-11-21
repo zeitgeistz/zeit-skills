@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/zeitgeistz/zeit-skills/actions/workflows/check.yml"><img src="https://github.com/zeitgeistz/zeit-skills/actions/workflows/check.yml/badge.svg" alt="check"></a>
-  <img src="https://img.shields.io/badge/version-0.1.0-blue" alt="version 0.1.0">
+  <a href="https://github.com/zeitgeistz/zeit-claude-skills/actions/workflows/check.yml"><img src="https://github.com/zeitgeistz/zeit-claude-skills/actions/workflows/check.yml/badge.svg" alt="check"></a>
+  <img src="https://img.shields.io/github/v/tag/zeitgeistz/zeit-claude-skills?color=blue&label=version" alt="latest version">
   <img src="https://img.shields.io/badge/skills-15-7c3aed" alt="15 skills">
   <img src="https://img.shields.io/badge/for-any%20agent-0f172a" alt="for any agent">
 </p>
