@@ -41,16 +41,9 @@ Every command starts with `/zeit:`, so they are easy to find. Each one reports f
 
 Each skill is a `SKILL.md` file: a set of instructions that Claude Code loads when you type its command. Nothing runs in the background.
 
-```mermaid
-flowchart LR
-  you([You type<br/>/zeit:name]) --> skill[SKILL.md<br/>instructions]
-  skill --> read[Read project<br/>files and config]
-  read --> run[Run the project's<br/>own tools]
-  run --> report{Report<br/>findings}
-  report -->|you say 'fix'| change[Small change<br/>+ checks]
-  report -->|you say 'save'| file[Write a doc<br/>to the repo]
-  report -->|default| stop([Stop. Nothing changed])
-```
+<p align="center">
+  <img src="docs/how-it-works.svg" alt="Flow: you type a command, SKILL.md loads, the skill reads project files, runs the project's tools and reports. Say fix to change files, say save to write a doc, or stop with nothing changed." width="100%">
+</p>
 
 Two rules shape every skill:
 
@@ -62,6 +55,10 @@ Two rules shape every skill:
 ## Install
 
 You need [Claude Code](https://claude.com/claude-code) and, for some skills, the tools of the project you check (npm, pip, git, and so on).
+
+<p align="center">
+  <img src="docs/install.svg" alt="Two install options: plugin install with two commands, or a manual copy into the skills folder" width="100%">
+</p>
 
 ### Option A: plugin install (recommended)
 
@@ -126,6 +123,10 @@ You have now checked the project. Nothing in it has changed.
 ## Command reference
 
 Every command takes an optional argument. Arguments in `[brackets]` are optional.
+
+<p align="center">
+  <img src="docs/commands.svg" alt="The fifteen commands in six groups, with a marker for what each one changes" width="100%">
+</p>
 
 ### Check the code
 
