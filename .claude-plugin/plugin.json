@@ -1,0 +1,20 @@
+{
+  "name": "zeit",
+  "version": "0.1.0",
+  "description": "Claude Code skills for checking, reviewing, improving, securing and shipping projects. Commands are /zeit:test, /zeit:review, /zeit:security and more.",
+  "author": {
+    "name": "zeitgeistz",
+    "url": "https://github.com/zeitgeistz"
+  },
+  "keywords": [
+    "skills",
+    "testing",
+    "code-review",
+    "security",
+    "threat-model",
+    "architecture",
+    "design",
+    "release",
+    "productivity"
+  ]
+}

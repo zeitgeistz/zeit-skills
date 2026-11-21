@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "zeit-claude-skills",
+  "description": "Claude Code skills for checking, reviewing, improving, securing and shipping projects.",
+  "owner": {
+    "name": "zeitgeistz"
+  },
+  "plugins": [
+    {
+      "name": "zeit",
+      "description": "Test, review, secure, threat-model, debug, commit and release any project with /zeit:* commands.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="t d">
+  <title id="t">zeit Claude Code skills</title>
+  <desc id="d">Command names /zeit:test, /zeit:review, /zeit:security shown as a pipeline from check to ship.</desc>
+  <rect width="960" height="280" rx="18" fill="#0f172a"/>
+  <text x="60" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#f8fafc">zeit</text>
+  <text x="60" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#94a3b8">Claude Code skills for checking, reviewing, improving and shipping projects</text>
+  <g font-family="Consolas, Menlo, monospace" font-size="18">
+    <rect x="60" y="190" width="150" height="40" rx="8" fill="#1e293b"/>
+    <text x="75" y="216" fill="#7dd3fc">/zeit:test</text>
+    <rect x="230" y="190" width="170" height="40" rx="8" fill="#1e293b"/>
+    <text x="245" y="216" fill="#7dd3fc">/zeit:review</text>
+    <rect x="420" y="190" width="170" height="40" rx="8" fill="#1e293b"/>
+    <text x="435" y="216" fill="#7dd3fc">/zeit:security</text>
+    <rect x="610" y="190" width="170" height="40" rx="8" fill="#1e293b"/>
+    <text x="625" y="216" fill="#7dd3fc">/zeit:commit</text>
+    <rect x="800" y="190" width="130" height="40" rx="8" fill="#1e293b"/>
+    <text x="815" y="216" fill="#7dd3fc">/zeit:release</text>
+  </g>
+  <g stroke="#38bdf8" stroke-width="2" fill="none">
+    <path d="M212 210 H226"/><path d="M402 210 H416"/><path d="M592 210 H606"/><path d="M782 210 H796"/>
+  </g>
+</svg>
