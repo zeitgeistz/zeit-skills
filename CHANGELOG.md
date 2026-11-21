@@ -3,7 +3,7 @@
 ## Unreleased
 
 ### Changed
-- Renamed the repo and marketplace to `zeit-agent-skills`. Old `zeit-claude-skills` links redirect.
+- Renamed the repo and marketplace to `zeit-skills`. Old `zeit-claude-skills` and `zeit-agent-skills` links redirect.
 - Descriptions now say the skills work with any coding agent and are designed mainly for Claude Code.
 
 ## v0.1.0 - 2026-11-21
@@ -16,7 +16,7 @@
   - Understand and document: `architecture` (with optional Mermaid diagram), `docs`
   - Debug and ship: `debug`, `commit`, `release`
   - Other: `focus`
-- Plugin install through a Claude Code marketplace (`zeit-agent-skills`).
+- Plugin install through a Claude Code marketplace (`zeit-skills`).
 - Repo check in CI (`scripts/check.mjs`): validates manifests, skill frontmatter and command references.
 
 ### Security

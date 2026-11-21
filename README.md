@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/zeitgeistz/zeit-agent-skills/actions/workflows/check.yml"><img src="https://github.com/zeitgeistz/zeit-agent-skills/actions/workflows/check.yml/badge.svg" alt="check"></a>
+  <a href="https://github.com/zeitgeistz/zeit-skills/actions/workflows/check.yml"><img src="https://github.com/zeitgeistz/zeit-skills/actions/workflows/check.yml/badge.svg" alt="check"></a>
   <img src="https://img.shields.io/badge/version-0.1.0-blue" alt="version 0.1.0">
   <img src="https://img.shields.io/badge/skills-15-7c3aed" alt="15 skills">
   <img src="https://img.shields.io/badge/for-any%20agent-0f172a" alt="for any agent">
@@ -67,8 +67,8 @@ You need [Claude Code](https://claude.com/claude-code) and, for some skills, the
 In a terminal:
 
 ```bash
-claude plugin marketplace add zeitgeistz/zeit-agent-skills
-claude plugin install zeit@zeit-agent-skills
+claude plugin marketplace add zeitgeistz/zeit-skills
+claude plugin install zeit@zeit-skills
 ```
 
 Then start Claude Code and type `/zeit:` to see the list.
@@ -78,15 +78,15 @@ Then start Claude Code and type `/zeit:` to see the list.
 If you do not want the plugin system, copy the skill folders into your skills directory. The commands become `/test`, `/review` and so on, without the `zeit:` prefix.
 
 ```bash
-git clone https://github.com/zeitgeistz/zeit-agent-skills.git
-cp -r zeit-agent-skills/skills/* ~/.claude/skills/
+git clone https://github.com/zeitgeistz/zeit-skills.git
+cp -r zeit-skills/skills/* ~/.claude/skills/
 ```
 
 On Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/zeitgeistz/zeit-agent-skills.git
-Copy-Item -Recurse zeit-agent-skills\skills\* $HOME\.claude\skills\
+git clone https://github.com/zeitgeistz/zeit-skills.git
+Copy-Item -Recurse zeit-skills\skills\* $HOME\.claude\skills\
 ```
 
 > Do not use Option A and Option B at the same time. The same skills would show up twice.
@@ -279,7 +279,7 @@ Feature: login (3 entry points: POST /login, POST /login/mfa, GET /reset)
 
 ```bash
 claude plugin uninstall zeit
-claude plugin install zeit@zeit-agent-skills
+claude plugin install zeit@zeit-skills
 ```
 
 **Disable** temporarily: `claude plugin --help` lists the disable command for your version.
@@ -288,7 +288,7 @@ claude plugin install zeit@zeit-agent-skills
 
 ```bash
 claude plugin uninstall zeit
-claude plugin marketplace remove zeit-agent-skills
+claude plugin marketplace remove zeit-skills
 ```
 
 For manual installs, delete the copied folders from `~/.claude/skills/`.
@@ -313,7 +313,7 @@ For manual installs, delete the copied folders from `~/.claude/skills/`.
 ### Layout
 
 ```text
-zeit-agent-skills/
+zeit-skills/
 ├── .claude-plugin/
 │   ├── plugin.json          # plugin name, version, description
 │   └── marketplace.json     # lets Claude Code install from this repo

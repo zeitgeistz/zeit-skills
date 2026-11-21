@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
-  "name": "zeit-agent-skills",
+  "name": "zeit-skills",
   "description": "Agent skills for checking, reviewing, improving, securing and shipping projects. Plain Markdown instructions for any coding agent, designed mainly for Claude Code.",
   "owner": {
     "name": "zeitgeistz"

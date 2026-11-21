@@ -6,15 +6,15 @@
   <rect x="40" y="70" width="880" height="160" rx="12" fill="#1e293b"/>
   <text x="64" y="102" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7dd3fc">Option A: plugin (recommended)</text>
   <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#e2e8f0">
-    <text x="64" y="138">$ claude plugin marketplace add zeitgeistz/zeit-agent-skills</text>
-    <text x="64" y="168">$ claude plugin install zeit@zeit-agent-skills</text>
+    <text x="64" y="138">$ claude plugin marketplace add zeitgeistz/zeit-skills</text>
+    <text x="64" y="168">$ claude plugin install zeit@zeit-skills</text>
   </g>
   <text x="64" y="208" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">Then type /zeit: in Claude Code to see the commands.</text>
   <rect x="40" y="250" width="880" height="170" rx="12" fill="#1e293b"/>
   <text x="64" y="282" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fcd34d">Option B: manual copy</text>
   <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#e2e8f0">
-    <text x="64" y="318">$ git clone https://github.com/zeitgeistz/zeit-agent-skills.git</text>
-    <text x="64" y="348">$ cp -r zeit-agent-skills/skills/* ~/.claude/skills/</text>
+    <text x="64" y="318">$ git clone https://github.com/zeitgeistz/zeit-skills.git</text>
+    <text x="64" y="348">$ cp -r zeit-skills/skills/* ~/.claude/skills/</text>
   </g>
   <text x="64" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">Commands have no prefix here: /test, /review, and so on.</text>
 </svg>
