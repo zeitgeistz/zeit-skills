@@ -1,49 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580" role="img" aria-labelledby="t d">
-  <title id="t">zeit commands and what each one changes</title>
-  <desc id="d">Fifteen commands in six groups. Each marker shows whether the command only reports, changes files after a word, edits files when run, or only makes local git commits or tags.</desc>
-  <rect width="960" height="580" rx="18" fill="#0f172a"/>
-  <text x="30" y="45" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f8fafc">Commands and what they change</text>
-  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#f8fafc">
-    <rect x="30" y="70" width="430" height="162" rx="12" fill="#1e293b"/><text x="50" y="98">Check</text>
-    <rect x="30" y="250" width="430" height="106" rx="12" fill="#1e293b"/><text x="50" y="278">Security</text>
-    <rect x="30" y="374" width="430" height="134" rx="12" fill="#1e293b"/><text x="50" y="402">Improve</text>
-    <rect x="500" y="70" width="430" height="106" rx="12" fill="#1e293b"/><text x="520" y="98">Understand and document</text>
-    <rect x="500" y="194" width="430" height="134" rx="12" fill="#1e293b"/><text x="520" y="222">Debug and ship</text>
-    <rect x="500" y="346" width="430" height="78" rx="12" fill="#1e293b"/><text x="520" y="374">Other</text>
-  </g>
-  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#7dd3fc">
-    <text x="60" y="126">/zeit:test</text><text x="60" y="154">/zeit:review</text><text x="60" y="182">/zeit:code-check</text><text x="60" y="210">/zeit:perf</text>
-    <text x="60" y="306">/zeit:security</text><text x="60" y="334">/zeit:threats</text>
-    <text x="60" y="430">/zeit:improve</text><text x="60" y="458">/zeit:design-check</text><text x="60" y="486">/zeit:deps</text>
-    <text x="530" y="126">/zeit:architecture</text><text x="530" y="154">/zeit:docs</text>
-    <text x="530" y="250">/zeit:debug</text><text x="530" y="278">/zeit:commit</text><text x="530" y="306">/zeit:release</text>
-    <text x="530" y="402">/zeit:focus</text>
-  </g>
-  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">
-    <text x="250" y="126">reports only</text><text x="250" y="154">reports only</text><text x="250" y="182">reports only</text><text x="250" y="210">reports only</text>
-    <text x="250" y="306">after save or fix</text><text x="250" y="334">after save or fix</text>
-    <text x="250" y="430">edits on run</text><text x="250" y="458">after fix</text><text x="250" y="486">after upgrade safe</text>
-    <text x="720" y="126">after write</text><text x="720" y="154">docs only, after fix</text>
-    <text x="720" y="250">after fix</text><text x="720" y="278">local commit</text><text x="720" y="306">local commit + tag</text>
-    <text x="720" y="402">no files</text>
-  </g>
-  <g fill="none" stroke="#94a3b8" stroke-width="2">
-    <circle cx="40" cy="122" r="6"/><circle cx="40" cy="150" r="6"/><circle cx="40" cy="178" r="6"/><circle cx="40" cy="206" r="6"/>
-    <circle cx="510" cy="398" r="6"/>
-  </g>
-  <g fill="#38bdf8">
-    <circle cx="40" cy="302" r="6"/><circle cx="40" cy="330" r="6"/><circle cx="40" cy="454" r="6"/><circle cx="40" cy="482" r="6"/>
-    <circle cx="510" cy="122" r="6"/><circle cx="510" cy="150" r="6"/><circle cx="510" cy="246" r="6"/>
-  </g>
-  <polygon points="40,419 47,432 33,432" fill="#f59e0b"/>
-  <polygon points="510,268 516,274 510,280 504,274" fill="#a78bfa"/>
-  <polygon points="510,296 516,302 510,308 504,302" fill="#a78bfa"/>
-  <rect x="500" y="440" width="430" height="130" rx="12" fill="#1e293b"/>
-  <text x="520" y="466" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#f8fafc">Legend</text>
-  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">
-    <circle cx="520" cy="490" r="6" fill="none" stroke="#94a3b8" stroke-width="2"/><text x="538" y="495">reports only</text>
-    <circle cx="520" cy="512" r="6" fill="#38bdf8"/><text x="538" y="517">changes after a word</text>
-    <polygon points="520,527 527,540 513,540" fill="#f59e0b"/><text x="538" y="539">edits files when run</text>
-    <polygon points="520,548 526,554 520,560 514,554" fill="#a78bfa"/><text x="538" y="559">local git only, never pushes</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="413" viewBox="0 0 960 413" role="img" aria-labelledby="title desc">
+  <title id="title">The 15 zeit commands</title>
+  <desc id="desc">Grouped command map. Check the code: test, review, code-check, perf. Security: security, threats. Improve: improve, design-check, deps. Understand and document: architecture, docs. Debug and ship: debug, commit, release. Focus: focus.</desc>
+  <rect x="0.5" y="0.5" width="959" height="412" rx="16" fill="#101416" stroke="#34403E"/>
+  <rect x="28" y="26" width="292" height="178" rx="10" fill="#191F20" stroke="#34403E"/>
+  <g transform="translate(44 41)"><path d="M5 12l4 4L19 6 M2 3h20v18H2z" fill="none" stroke="#CBEA91" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="80" y="60" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">Check the code</text>
+  <path d="M44 75h260" fill="none" stroke="#34403E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="96" r="2" fill="#CBEA91"/>
+  <text x="60" y="101" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:test</text>
+  <circle cx="48" cy="123" r="2" fill="#CBEA91"/>
+  <text x="60" y="128" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:review</text>
+  <circle cx="48" cy="150" r="2" fill="#CBEA91"/>
+  <text x="60" y="155" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:code-check</text>
+  <circle cx="48" cy="177" r="2" fill="#CBEA91"/>
+  <text x="60" y="182" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:perf</text>
+  <rect x="334" y="26" width="292" height="178" rx="10" fill="#191F20" stroke="#34403E"/>
+  <g transform="translate(350 41)"><path d="M12 2l8 3v6c0 5-3 8-8 11-5-3-8-6-8-11V5z M9 12l2 2 4-5" fill="none" stroke="#CBEA91" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="386" y="60" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">Security</text>
+  <path d="M350 75h260" fill="none" stroke="#34403E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="354" cy="96" r="2" fill="#CBEA91"/>
+  <text x="366" y="101" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:security</text>
+  <circle cx="354" cy="123" r="2" fill="#CBEA91"/>
+  <text x="366" y="128" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:threats</text>
+  <rect x="640" y="26" width="292" height="178" rx="10" fill="#191F20" stroke="#34403E"/>
+  <g transform="translate(656 41)"><path d="M14 7l3 3 4-4a6 6 0 0 1-7 8l-6 7-4-4 7-6a6 6 0 0 1 8-7z" fill="none" stroke="#CBEA91" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="692" y="60" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">Improve</text>
+  <path d="M656 75h260" fill="none" stroke="#34403E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="660" cy="96" r="2" fill="#CBEA91"/>
+  <text x="672" y="101" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:improve</text>
+  <circle cx="660" cy="123" r="2" fill="#CBEA91"/>
+  <text x="672" y="128" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:design-check</text>
+  <circle cx="660" cy="150" r="2" fill="#CBEA91"/>
+  <text x="672" y="155" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:deps</text>
+  <rect x="28" y="222" width="292" height="165" rx="10" fill="#191F20" stroke="#34403E"/>
+  <g transform="translate(44 237)"><path d="M5 2h9l5 5v15H5z M14 2v6h5M8 12h8m-8 4h8" fill="none" stroke="#CBEA91" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="80" y="256" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">Understand and document</text>
+  <path d="M44 271h260" fill="none" stroke="#34403E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="292" r="2" fill="#CBEA91"/>
+  <text x="60" y="297" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:architecture</text>
+  <circle cx="48" cy="319" r="2" fill="#CBEA91"/>
+  <text x="60" y="324" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:docs</text>
+  <rect x="334" y="222" width="292" height="165" rx="10" fill="#191F20" stroke="#34403E"/>
+  <g transform="translate(350 237)"><path d="M7 7v10m0 0c0-4 4-5 8-5h2V7 M7 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM17 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" fill="none" stroke="#CBEA91" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="386" y="256" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">Debug and ship</text>
+  <path d="M350 271h260" fill="none" stroke="#34403E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="354" cy="292" r="2" fill="#CBEA91"/>
+  <text x="366" y="297" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:debug</text>
+  <circle cx="354" cy="319" r="2" fill="#CBEA91"/>
+  <text x="366" y="324" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:commit</text>
+  <circle cx="354" cy="346" r="2" fill="#CBEA91"/>
+  <text x="366" y="351" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:release</text>
+  <rect x="640" y="222" width="292" height="165" rx="10" fill="#191F20" stroke="#34403E"/>
+  <g transform="translate(656 237)"><path d="M7 3H3v4m14-4h4v4M3 17v4h4m14-4v4h-4 M9 12h6m-3-3v6" fill="none" stroke="#CBEA91" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="692" y="256" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">Focus</text>
+  <path d="M656 271h260" fill="none" stroke="#34403E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="660" cy="292" r="2" fill="#CBEA91"/>
+  <text x="672" y="297" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="400">/zeit:focus</text>
 </svg>

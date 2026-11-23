@@ -1,20 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="t d">
-  <title id="t">Two ways to install zeit</title>
-  <desc id="d">Option A installs the plugin with two commands and gives /zeit: commands. Option B copies the skill folders by hand and gives commands with no prefix.</desc>
-  <rect width="960" height="440" rx="18" fill="#0f172a"/>
-  <text x="40" y="45" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f8fafc">Install</text>
-  <rect x="40" y="70" width="880" height="160" rx="12" fill="#1e293b"/>
-  <text x="64" y="102" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7dd3fc">Option A: plugin (recommended)</text>
-  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#e2e8f0">
-    <text x="64" y="138">$ claude plugin marketplace add zeitgeistz/zeit-skills</text>
-    <text x="64" y="168">$ claude plugin install zeit@zeit-skills</text>
-  </g>
-  <text x="64" y="208" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">Then type /zeit: in Claude Code to see the commands.</text>
-  <rect x="40" y="250" width="880" height="170" rx="12" fill="#1e293b"/>
-  <text x="64" y="282" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fcd34d">Option B: manual copy</text>
-  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#e2e8f0">
-    <text x="64" y="318">$ git clone https://github.com/zeitgeistz/zeit-skills.git</text>
-    <text x="64" y="348">$ cp -r zeit-skills/skills/* ~/.claude/skills/</text>
-  </g>
-  <text x="64" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">Commands have no prefix here: /test, /review, and so on.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="170" viewBox="0 0 960 170" role="img" aria-labelledby="title desc">
+  <title id="title">Two ways to install zeit</title>
+  <desc id="desc">The plugin route uses the zeit-skills marketplace and gives commands such as /zeit:test. The standalone route copies the skill folders and gives commands such as /test.</desc>
+  <rect x="0.5" y="0.5" width="959" height="169" rx="16" fill="#101416" stroke="#34403E"/>
+  <rect x="28" y="26" width="438" height="118" rx="10" fill="#191F20" stroke="#34403E"/>
+  <rect x="494" y="26" width="438" height="118" rx="10" fill="#191F20" stroke="#34403E"/>
+  <g transform="translate(48 48)"><path d="M2 5h20v14H2z M6 9l3 3-3 3m6 0h5" fill="none" stroke="#CBEA91" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="88" y="67" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="700">Claude Code plugin</text>
+  <text x="88" y="88" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">MARKETPLACE</text>
+  <text x="88" y="119" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">/zeit:test</text>
+  <g transform="translate(514 48)"><path d="M2 8V5h7l3 3h10v11H2z" fill="none" stroke="#CBEA91" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="554" y="67" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="700">Standalone skills</text>
+  <text x="554" y="88" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">COPIED SKILL FOLDERS</text>
+  <text x="554" y="119" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">/test</text>
 </svg>

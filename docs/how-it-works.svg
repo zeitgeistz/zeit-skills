@@ -1,41 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="340" viewBox="0 0 960 340" role="img" aria-labelledby="t d">
-  <title id="t">How a zeit command runs</title>
-  <desc id="d">Five steps from typing a command to a report. Below, three outcomes: say fix to change files, say save to write a doc, or give no reply and nothing changes. Rules: report first; act only on a word.</desc>
-  <rect width="960" height="340" rx="18" fill="#0f172a"/>
-  <text x="40" y="45" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f8fafc">How a command runs</text>
-  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
-    <g fill="#1e293b" stroke="#334155">
-      <rect x="40" y="75" width="150" height="70" rx="10"/>
-      <rect x="230" y="75" width="150" height="70" rx="10"/>
-      <rect x="420" y="75" width="150" height="70" rx="10"/>
-      <rect x="610" y="75" width="150" height="70" rx="10"/>
-      <rect x="800" y="75" width="150" height="70" rx="10"/>
-    </g>
-    <g font-size="15" fill="#e2e8f0">
-      <text x="115" y="104">You type</text><text x="115" y="126" font-family="Consolas, Menlo, monospace" fill="#7dd3fc">/zeit:name</text>
-      <text x="305" y="104">SKILL.md</text><text x="305" y="126">instructions load</text>
-      <text x="495" y="104">Read project</text><text x="495" y="126">files and config</text>
-      <text x="685" y="104">Run the project's</text><text x="685" y="126">own tools</text>
-      <text x="875" y="104">Report findings</text><text x="875" y="126">ranked, file:line</text>
-    </g>
-    <g fill="#1e293b" stroke="#334155">
-      <rect x="50" y="240" width="240" height="62" rx="10"/>
-      <rect x="360" y="240" width="240" height="62" rx="10"/>
-      <rect x="670" y="240" width="240" height="62" rx="10"/>
-    </g>
-    <g font-size="15" fill="#e2e8f0">
-      <text x="170" y="265" font-family="Consolas, Menlo, monospace" fill="#7dd3fc">"fix 1"</text><text x="170" y="287">small change, then checks</text>
-      <text x="480" y="265" font-family="Consolas, Menlo, monospace" fill="#7dd3fc">"save"</text><text x="480" y="287">write a doc to the repo</text>
-      <text x="790" y="265">no reply</text><text x="790" y="287">stop, nothing changed</text>
-    </g>
-  </g>
-  <g stroke="#38bdf8" stroke-width="2" fill="none">
-    <path d="M190 110 H222"/><path d="M380 110 H412"/><path d="M570 110 H602"/><path d="M760 110 H792"/>
-    <path d="M875 145 V190 H170 V236"/><path d="M480 190 V236"/><path d="M790 190 V236"/>
-  </g>
-  <g fill="#38bdf8">
-    <polygon points="222,105 230,110 222,115"/><polygon points="412,105 420,110 412,115"/>
-    <polygon points="602,105 610,110 602,115"/><polygon points="792,105 800,110 792,115"/>
-  </g>
-  <text x="480" y="326" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">Rule 1: report first. Rule 2: act only on a word.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="328" viewBox="0 0 960 328" role="img" aria-labelledby="title desc">
+  <title id="title">What happens when you run a skill</title>
+  <desc id="desc">Using /zeit:docs as an example, Claude loads the skill instructions, checks documentation against the code and reports findings. Run /zeit:docs fix to apply documentation fixes.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="m2 1 4 3-4 3" fill="none" stroke="#CBEA91" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="959" height="327" rx="16" fill="#101416" stroke="#34403E"/>
+  <rect x="32" y="32" width="252" height="131" rx="10" fill="#191F20" stroke="#34403E"/>
+  <text x="48" y="59" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">INVOKE A SKILL</text>
+  <text x="48" y="94" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="700">/zeit:docs</text>
+  <text x="48" y="132" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">Start in the project directory.</text>
+  <rect x="354" y="32" width="252" height="131" rx="10" fill="#191F20" stroke="#34403E"/>
+  <text x="370" y="59" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">LOAD ITS INSTRUCTIONS</text>
+  <text x="370" y="94" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">skills/docs/SKILL.md</text>
+  <text x="370" y="132" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">Claude follows the skill file.</text>
+  <rect x="676" y="32" width="252" height="131" rx="10" fill="#252D22" stroke="#34403E"/>
+  <text x="692" y="59" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">RETURN FINDINGS</text>
+  <text x="692" y="94" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="700">Docs audit</text>
+  <text x="692" y="121" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">Check setup steps and</text>
+  <text x="692" y="141" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">examples against the code.</text>
+  <path d="M293 97h52" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <path d="M615 97h52" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <path d="M802 163v30H245v21m557-21h-87v21" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="802" cy="193" r="3" fill="#CBEA91"/>
+  <path d="M245 211v10" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <path d="M715 211v10" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <rect x="32" y="226" width="426" height="72" rx="10" fill="#191F20" stroke="#34403E"/>
+  <rect x="502" y="226" width="426" height="72" rx="10" fill="#191F20" stroke="#34403E"/>
+  <text x="50" y="254" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Read the report</text>
+  <text x="50" y="278" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">See the evidence and suggested fixes.</text>
+  <text x="520" y="254" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Apply documentation fixes</text>
+  <text x="520" y="278" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">Run /zeit:docs fix to edit the docs.</text>
 </svg>
