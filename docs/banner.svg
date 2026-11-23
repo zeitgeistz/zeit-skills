@@ -1,37 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
-  <title id="title">zeit</title>
-  <desc id="desc">Claude Code skills for checking, reviewing, improving and shipping projects. An example pipeline runs test, review, security, commit and release.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse">
-      <path d="m2 1 4 3-4 3" fill="none" stroke="#CBEA91" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-    </marker>
-  </defs>
+  <title id="title">zeit-skills</title>
+  <desc id="desc">zeit-skills gives Claude Code commands for testing, review, security, commits, and releases.</desc>
   <rect x="0.5" y="0.5" width="959" height="279" rx="16" fill="#101416" stroke="#34403E"/>
-  <text x="51" y="113" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="82" font-weight="750" letter-spacing="-3.5">zeit</text>
-  <text x="55" y="151" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="400">Claude Code skills for checking,</text>
-  <text x="55" y="179" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="400">reviewing, improving and shipping projects.</text>
+  <path d="M52 49h30m-30 4h14" fill="none" stroke="#CBEA91" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="52" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="61" font-weight="700" fill="#F4F0E7" letter-spacing="-2.6">zeit-skills</text>
+  <text x="54" y="148" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#BAC4BA">Claude Code skills for checking,</text>
+  <text x="54" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="400" fill="#BAC4BA">reviewing, improving and shipping projects.</text>
   <g aria-hidden="true">
-    <path d="M705 46h200m-200 26h200m-200 26h200m-200 26h200m-200 26h200m-200 26h200M727 46v130m26-130v130m26-130v130m26-130v130m26-130v130m26-130v130m26-130v130" fill="none" stroke="#303C35" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 5"/>
-    <path d="M718 69V52h17m153 0h17v17m-187 83v17h17m153 0h17v-17" fill="none" stroke="#AEBAB2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
-    <path d="M755 100h27m54 0h30v17m-111 15h37m-12-64v78m52-78v78" fill="none" stroke="#303C35" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M781 63h40l18 18v72h-58z" fill="#1B2120" stroke="#CBEA91" stroke-width="1.5" stroke-linejoin="round"/>
-    <path d="M821 63v18h18m-47 11h33m-33 11h24m-24 11h16m-16 11h22" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="845" cy="135" r="20" fill="#252D22" stroke="#CBEA91" stroke-width="1.5"/>
-    <path d="m836 135 6 6 12-13" fill="none" stroke="#CBEA91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="755" cy="100" r="2.5" fill="#CBEA91"/><circle cx="755" cy="132" r="2.5" fill="#CBEA91"/><circle cx="866" cy="117" r="2.5" fill="#CBEA91"/>
+    <path d="M650 48h254m-254 26h254m-254 26h254m-254 26h254m-254 26h254m-254 26h254M659 48v130m26-130v130m26-130v130m26-130v130m26-130v130m26-130v130m26-130v130m26-130v130m26-130v130m26-130v130" fill="none" stroke="#2A342F" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 5"/>
+    <path d="M650 63V48h15m224 0h15v15M650 163v15h15m224 0h15v-15" fill="none" stroke="#718271" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="698" y="58" width="109" height="108" rx="8" fill="#191F20" stroke="#34403E"/>
+    <path d="M713 77h48m-48 19h25m-25 17h48m-48 17h33m-33 17h38" fill="none" stroke="#718271" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M788 78h-11v13m94-13h11v13m-105 42v13h11m94-13v13h-11" fill="none" stroke="#CBEA91" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="781" y="85" width="97" height="54" rx="6" fill="#222B24" stroke="#CBEA91"/>
+    <path d="m800 104 9 8-9 8m20 0h14" fill="none" stroke="#CBEA91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="850" cy="112" r="10" fill="#191F20" stroke="#CBEA91"/>
+    <path d="m846 112 3 3 5-6" fill="none" stroke="#CBEA91" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
-  <rect x="54" y="204" width="139" height="44" rx="7" fill="#252D22" stroke="#34403E"/>
-  <text x="123.5" y="231" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" text-anchor="middle">/zeit:test</text>
-  <path d="M196 226h15" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-  <rect x="214" y="204" width="155" height="44" rx="7" fill="#191F20" stroke="#34403E"/>
-  <text x="291.5" y="231" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" text-anchor="middle">/zeit:review</text>
-  <path d="M372 226h15" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-  <rect x="390" y="204" width="170" height="44" rx="7" fill="#191F20" stroke="#34403E"/>
-  <text x="475" y="231" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" text-anchor="middle">/zeit:security</text>
-  <path d="M563 226h15" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-  <rect x="581" y="204" width="153" height="44" rx="7" fill="#191F20" stroke="#34403E"/>
-  <text x="657.5" y="231" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" text-anchor="middle">/zeit:commit</text>
-  <path d="M737 226h15" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-  <rect x="755" y="204" width="151" height="44" rx="7" fill="#191F20" stroke="#34403E"/>
-  <text x="830.5" y="231" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" text-anchor="middle">/zeit:release</text>
+  <rect x="52" y="206" width="153.6" height="43" rx="7" fill="#222B24" stroke="#718271"/>
+  <text x="128.8" y="233" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" fill="#CBEA91" text-anchor="middle">/zeit:test</text>
+  <path d="M209.6 227.5h14m-4-4 4 4-4 4" fill="none" stroke="#CBEA91" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="227.6" y="206" width="153.6" height="43" rx="7" fill="#191F20" stroke="#34403E"/>
+  <text x="304.4" y="233" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" fill="#F4F0E7" text-anchor="middle">/zeit:review</text>
+  <path d="M385.2 227.5h14m-4-4 4 4-4 4" fill="none" stroke="#CBEA91" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="403.2" y="206" width="153.6" height="43" rx="7" fill="#191F20" stroke="#34403E"/>
+  <text x="480" y="233" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" fill="#F4F0E7" text-anchor="middle">/zeit:security</text>
+  <path d="M560.8 227.5h14m-4-4 4 4-4 4" fill="none" stroke="#CBEA91" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="578.8" y="206" width="153.6" height="43" rx="7" fill="#191F20" stroke="#34403E"/>
+  <text x="655.5999999999999" y="233" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" fill="#F4F0E7" text-anchor="middle">/zeit:commit</text>
+  <path d="M736.4 227.5h14m-4-4 4 4-4 4" fill="none" stroke="#CBEA91" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="754.4" y="206" width="153.6" height="43" rx="7" fill="#191F20" stroke="#34403E"/>
+  <text x="831.1999999999999" y="233" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" fill="#F4F0E7" text-anchor="middle">/zeit:release</text>
 </svg>

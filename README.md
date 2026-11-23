@@ -1,4 +1,4 @@
-<img src="docs/banner.svg" alt="zeit. Claude Code skills for checking, reviewing, improving and shipping projects." width="100%">
+![zeit-skills gives Claude Code commands for testing, review, security, commits, and releases.](docs/banner.svg)
 
 # zeit
 
