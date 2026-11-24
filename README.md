@@ -1,5 +1,3 @@
-![zeit-skills gives Claude Code commands for testing, review, security, commits, and releases.](docs/banner.svg)
-
 # zeit
 
 Run your project’s checks, review a diff, audit dependencies, diagnose a failure, or prepare a release from Claude Code. Each of the 15 skills has its own `/zeit:` command and follows the instructions in its `SKILL.md` file.

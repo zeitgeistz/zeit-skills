@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="170" viewBox="0 0 960 170" role="img" aria-labelledby="title desc">
   <title id="title">Two ways to install zeit</title>
   <desc id="desc">The plugin route uses the zeit-skills marketplace and gives commands such as /zeit:test. The standalone route copies the skill folders and gives commands such as /test.</desc>
-  <rect x="0.5" y="0.5" width="959" height="169" rx="16" fill="#101416" stroke="#34403E"/>
-  <rect x="28" y="26" width="438" height="118" rx="10" fill="#191F20" stroke="#34403E"/>
-  <rect x="494" y="26" width="438" height="118" rx="10" fill="#191F20" stroke="#34403E"/>
-  <g transform="translate(48 48)"><path d="M2 5h20v14H2z M6 9l3 3-3 3m6 0h5" fill="none" stroke="#CBEA91" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
-  <text x="88" y="67" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="700">Claude Code plugin</text>
-  <text x="88" y="88" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">MARKETPLACE</text>
-  <text x="88" y="119" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">/zeit:test</text>
-  <g transform="translate(514 48)"><path d="M2 8V5h7l3 3h10v11H2z" fill="none" stroke="#CBEA91" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
-  <text x="554" y="67" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="700">Standalone skills</text>
-  <text x="554" y="88" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">COPIED SKILL FOLDERS</text>
-  <text x="554" y="119" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">/test</text>
+  <rect x="0.5" y="0.5" width="959" height="169" rx="2" fill="#090909" stroke="#494438"/>
+  <rect x="28" y="26" width="438" height="118" rx="2" fill="#11100E" stroke="#494438"/>
+  <rect x="494" y="26" width="438" height="118" rx="2" fill="#11100E" stroke="#494438"/>
+  <g transform="translate(48 48)"><path d="M2 5h20v14H2z M6 9l3 3-3 3m6 0h5" fill="none" stroke="#F3E8CD" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="88" y="67" fill="#F3E8CD" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700">Claude Code plugin</text>
+  <text x="88" y="88" fill="#F3E8CD" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">MARKETPLACE</text>
+  <text x="88" y="119" fill="#F3E8CD" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">/zeit:test</text>
+  <g transform="translate(514 48)"><path d="M2 8V5h7l3 3h10v11H2z" fill="none" stroke="#F3E8CD" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="554" y="67" fill="#F3E8CD" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700">Standalone skills</text>
+  <text x="554" y="88" fill="#F3E8CD" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">COPIED SKILL FOLDERS</text>
+  <text x="554" y="119" fill="#F3E8CD" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">/test</text>
 </svg>

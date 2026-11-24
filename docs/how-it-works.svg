@@ -3,33 +3,33 @@
   <desc id="desc">Using /zeit:docs as an example, Claude loads the skill instructions, checks documentation against the code and reports findings. Run /zeit:docs fix to apply documentation fixes.</desc>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse">
-      <path d="m2 1 4 3-4 3" fill="none" stroke="#CBEA91" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="m2 1 4 3-4 3" fill="none" stroke="#F3E8CD" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
-  <rect x="0.5" y="0.5" width="959" height="327" rx="16" fill="#101416" stroke="#34403E"/>
-  <rect x="32" y="32" width="252" height="131" rx="10" fill="#191F20" stroke="#34403E"/>
-  <text x="48" y="59" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">INVOKE A SKILL</text>
-  <text x="48" y="94" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="700">/zeit:docs</text>
-  <text x="48" y="132" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">Start in the project directory.</text>
-  <rect x="354" y="32" width="252" height="131" rx="10" fill="#191F20" stroke="#34403E"/>
-  <text x="370" y="59" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">LOAD ITS INSTRUCTIONS</text>
-  <text x="370" y="94" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">skills/docs/SKILL.md</text>
-  <text x="370" y="132" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">Claude follows the skill file.</text>
-  <rect x="676" y="32" width="252" height="131" rx="10" fill="#252D22" stroke="#34403E"/>
-  <text x="692" y="59" fill="#CBEA91" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">RETURN FINDINGS</text>
-  <text x="692" y="94" fill="#F4F0E7" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="700">Docs audit</text>
-  <text x="692" y="121" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">Check setup steps and</text>
-  <text x="692" y="141" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">examples against the code.</text>
-  <path d="M293 97h52" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-  <path d="M615 97h52" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-  <path d="M802 163v30H245v21m557-21h-87v21" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="802" cy="193" r="3" fill="#CBEA91"/>
-  <path d="M245 211v10" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-  <path d="M715 211v10" fill="none" stroke="#CBEA91" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-  <rect x="32" y="226" width="426" height="72" rx="10" fill="#191F20" stroke="#34403E"/>
-  <rect x="502" y="226" width="426" height="72" rx="10" fill="#191F20" stroke="#34403E"/>
-  <text x="50" y="254" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Read the report</text>
-  <text x="50" y="278" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">See the evidence and suggested fixes.</text>
-  <text x="520" y="254" fill="#F4F0E7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Apply documentation fixes</text>
-  <text x="520" y="278" fill="#AEBAB2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">Run /zeit:docs fix to edit the docs.</text>
+  <rect x="0.5" y="0.5" width="959" height="327" rx="2" fill="#090909" stroke="#494438"/>
+  <rect x="32" y="32" width="252" height="131" rx="2" fill="#11100E" stroke="#494438"/>
+  <text x="48" y="59" fill="#F3E8CD" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">INVOKE A SKILL</text>
+  <text x="48" y="94" fill="#F3E8CD" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="700">/zeit:docs</text>
+  <text x="48" y="132" fill="#C0B69F" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="400">Start in the project directory.</text>
+  <rect x="354" y="32" width="252" height="131" rx="2" fill="#11100E" stroke="#494438"/>
+  <text x="370" y="59" fill="#F3E8CD" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">LOAD ITS INSTRUCTIONS</text>
+  <text x="370" y="94" fill="#F3E8CD" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">skills/docs/SKILL.md</text>
+  <text x="370" y="132" fill="#C0B69F" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="400">Claude follows the skill file.</text>
+  <rect x="676" y="32" width="252" height="131" rx="2" fill="#1C1913" stroke="#494438"/>
+  <text x="692" y="59" fill="#F3E8CD" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.4">RETURN FINDINGS</text>
+  <text x="692" y="94" fill="#F3E8CD" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="700">Docs audit</text>
+  <text x="692" y="121" fill="#C0B69F" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="400">Check setup steps and</text>
+  <text x="692" y="141" fill="#C0B69F" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="400">examples against the code.</text>
+  <path d="M293 97h52" fill="none" stroke="#F3E8CD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <path d="M615 97h52" fill="none" stroke="#F3E8CD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <path d="M802 163v30H245v21m557-21h-87v21" fill="none" stroke="#F3E8CD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="802" cy="193" r="3" fill="#F3E8CD"/>
+  <path d="M245 211v10" fill="none" stroke="#F3E8CD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <path d="M715 211v10" fill="none" stroke="#F3E8CD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <rect x="32" y="226" width="426" height="72" rx="2" fill="#11100E" stroke="#494438"/>
+  <rect x="502" y="226" width="426" height="72" rx="2" fill="#11100E" stroke="#494438"/>
+  <text x="50" y="254" fill="#F3E8CD" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700">Read the report</text>
+  <text x="50" y="278" fill="#C0B69F" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="400">See the evidence and suggested fixes.</text>
+  <text x="520" y="254" fill="#F3E8CD" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700">Apply documentation fixes</text>
+  <text x="520" y="278" fill="#C0B69F" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="400">Run /zeit:docs fix to edit the docs.</text>
 </svg>
