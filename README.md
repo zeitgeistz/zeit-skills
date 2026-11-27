@@ -1,5 +1,7 @@
 # zeit
 
+<img src="docs/banner.png" alt="zeit-skills workflow from tests through release" width="820">
+
 Run your project’s checks, review a diff, audit dependencies, diagnose a failure, or prepare a release from Claude Code. Each of the 15 skills has its own `/zeit:` command and follows the instructions in its `SKILL.md` file.
 
 [Install](#install) · [First run](#first-run) · [How it works](#how-it-works) · [Command reference](#command-reference) · [Workflows](#workflows) · [Troubleshooting](#troubleshooting)
